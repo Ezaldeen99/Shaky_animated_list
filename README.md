@@ -187,6 +187,13 @@ for example you can simply do this to show ListView horizontal Scroll animations
 
 **[Example for all cases](https://github.com/lgvalle/Material-Animations/)**
 
+<a name="contribute"></a>
+## Contribute
+Let's develop with collaborations. We would love to have contributions by raising issues and opening PRs. Filing an issue before PR is must.
+
+
+## License
+Project is published under the Apache 2.0 license. Feel free to clone and modify repo as you want, but don't forget to add reference to authors :)
 
 [library]: https://pub
 
