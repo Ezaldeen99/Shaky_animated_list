@@ -2,7 +2,7 @@ import 'package:example/widgets/gridview_list.dart';
 import 'package:example/widgets/horz_list.dart';
 import 'package:example/widgets/verstical_list.dart';
 import 'package:flutter/material.dart';
-import 'package:shaky_animated_listview/animators/grid_animator.dart';
+import 'package:shaky_animated_listview/scroll_animator.dart';
 
 void main() {
   runApp(const MyApp());

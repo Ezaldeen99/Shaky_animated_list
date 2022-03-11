@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shaky_animated_listview/widgets/animated_listview.dart';
+import 'package:shaky_animated_listview/scroll_animator.dart';
 
 class VerticalList extends StatelessWidget {
   const VerticalList({Key? key}) : super(key: key);

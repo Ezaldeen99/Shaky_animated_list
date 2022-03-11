@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shaky_animated_listview/widgets/animated_gridview.dart';
+import 'package:shaky_animated_listview/scroll_animator.dart';
 
 class GridList extends StatelessWidget {
   const GridList({Key? key}) : super(key: key);
