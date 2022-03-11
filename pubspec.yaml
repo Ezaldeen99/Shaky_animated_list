@@ -1,7 +1,7 @@
 name: shaky_animated_listview
 description: A new Flutter project.
 version: 0.0.1
-homepage:
+homepage: https://github.com/Ezaldeen99/Shaky_animated_list
 
 environment:
   sdk: ">=2.16.1 <3.0.0"
