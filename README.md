@@ -1,8 +1,8 @@
-# Shaky
+# [Shaky_animated_list](https://pub.dev/packages/shaky_animated_list)
 
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Material--Animations-brightgreen.svg?style=flat)](http://android-arsenal.com/details/3/1880)
+[![pub](https://img.shields.io/pub/v/shaky_animated_list.svg)](https://pub.dev/packages/shaky_animated_list/install)
 
-[Shaky animated list view][List-view-animations] can be used for **three** main things:
+[Shaky_animated_list](https://pub.dev/packages/shaky_animated_list) can be used for **three** main things:
 
 1. Animate List view scroll.
 2. Animate grid view first view.
@@ -41,7 +41,7 @@ for example you can simply do this to show shaking grey color cards
     ),).toList()
     )
 ```
-[shaking_grid]
+![shaking_grid]
 
 ### ListView Scroll animations
 
@@ -108,7 +108,7 @@ for example you can simply do this to show ListView vertical Scroll animations
     )
 ))
 ```
-[scroll_list]
+![scroll_list]
 
 
 ### Grid Scroll animations
@@ -154,7 +154,7 @@ for example you can simply do this to show Grid vertical Scroll animations
        ),
 
 ```
-[scroll_grid]
+![scroll_grid]
 
 
 
@@ -181,7 +181,7 @@ for example you can simply do this to show ListView horizontal Scroll animations
         ),
   ),
 ```
-[horz_list]
+![horz_list]
 
 # Sample source code
 
