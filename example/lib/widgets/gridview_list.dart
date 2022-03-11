@@ -10,7 +10,6 @@ class GridList extends StatelessWidget {
         body: Padding(
       padding: const EdgeInsets.all(20),
       child: AnimatedGridView(
-          // scrollDirection: Axis.horizontal,
           duration: 100,
           crossAxisCount: 2,
           mainAxisExtent: 256,
@@ -21,7 +20,7 @@ class GridList extends StatelessWidget {
               (index) => Card(
                     elevation: 50,
                     shadowColor: Colors.black,
-                    color: Colors.grey,
+                    color: Colors.grey[700],
                     child: SizedBox(
                       width: double.infinity,
                       child: Padding(
@@ -36,17 +35,6 @@ class GridList extends StatelessWidget {
                                     "https://avatars.githubusercontent.com/u/30810111?v=4"),
                                 //NetworkImage
                                 radius: 50,
-                              ),
-                            ),
-                            SizedBox(
-                              height: 10,
-                            ),
-                            Text(
-                              'Scroll to start',
-                              style: TextStyle(
-                                color: Colors.blueGrey,
-                                fontSize: 16,
-                                fontWeight: FontWeight.w500,
                               ),
                             ),
                           ],
