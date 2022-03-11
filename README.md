@@ -197,10 +197,10 @@ Project is published under the Apache 2.0 license. Feel free to clone and modify
 
 [library]: https://pub
 
-[scroll_list]: /assets/scroll_list.gif
+[scroll_list]: https://github.com/Ezaldeen99/Shaky_animated_list/blob/master/assets/scroll_list.gif
 
-[scroll_grid]: /assets/grid_scroll.gif
+[scroll_grid]: https://github.com/Ezaldeen99/Shaky_animated_list/blob/master/assets/grid_scroll.gif
 
-[shaking_grid]: /assets/shaking_grid.gif
+[shaking_grid]: https://github.com/Ezaldeen99/Shaky_animated_list/blob/master/assets/shaking_grid.gif
 
-[horz_list]: /assets/horz_list.gif
+[horz_list]: https://github.com/Ezaldeen99/Shaky_animated_list/blob/master/assets/horz_list.gif
