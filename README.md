@@ -1,8 +1,8 @@
-# [Shaky_animated_list](https://pub.dev/packages/shaky_animated_list)
+# [Shaky_animated_list](https://pub.dev/packages/shaky_animated_listview)
 
-[![pub](https://img.shields.io/pub/v/shaky_animated_list.svg)](https://pub.dev/packages/shaky_animated_list/install)
+[![pub](https://img.shields.io/pub/v/shaky_animated_listview.svg)](https://pub.dev/packages/shaky_animated_listview/install)
 
-[Shaky_animated_list](https://pub.dev/packages/shaky_animated_list) can be used for **three** main things:
+[Shaky_animated_list](https://pub.dev/packages/shaky_animated_listview/install) can be used for **three** main things:
 
 1. Animate List view scroll.
 2. Animate grid view first view.
