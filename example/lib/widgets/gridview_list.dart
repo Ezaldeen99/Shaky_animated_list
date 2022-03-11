@@ -1,0 +1,59 @@
+import 'package:flutter/material.dart';
+import 'package:shaky_animated_listview/widgets/animated_gridview.dart';
+
+class GridList extends StatelessWidget {
+  const GridList({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        body: Padding(
+      padding: const EdgeInsets.all(20),
+      child: AnimatedGridView(
+          // scrollDirection: Axis.horizontal,
+          duration: 100,
+          crossAxisCount: 2,
+          mainAxisExtent: 256,
+          crossAxisSpacing: 8,
+          mainAxisSpacing: 8,
+          children: List.generate(
+              21,
+              (index) => Card(
+                    elevation: 50,
+                    shadowColor: Colors.black,
+                    color: Colors.grey,
+                    child: SizedBox(
+                      width: double.infinity,
+                      child: Padding(
+                        padding: const EdgeInsets.all(20.0),
+                        child: Column(
+                          children: const [
+                            CircleAvatar(
+                              backgroundColor: Colors.black,
+                              radius: 60,
+                              child: CircleAvatar(
+                                backgroundImage: NetworkImage(
+                                    "https://avatars.githubusercontent.com/u/30810111?v=4"),
+                                //NetworkImage
+                                radius: 50,
+                              ),
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
+                            Text(
+                              'Scroll to start',
+                              style: TextStyle(
+                                color: Colors.blueGrey,
+                                fontSize: 16,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ))),
+    ));
+  }
+}
